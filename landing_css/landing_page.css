@@ -1,5 +1,8 @@
+* {
+    font-family: sans-serif;
+}
 header {
-    border: 4px solid red;
+    /*border: 4px solid red;*/
     margin: 0;
 
     display: flex;
@@ -8,19 +11,26 @@ header {
     align-content: space-between;
     flex-wrap: wrap;
 
-    height: 600px;
+    height: 450px;
+
+    background-color: #1F2937;
 
 }
 
 .logo, .links, .introduction, .header_img {
-    border: 2px solid red; 
+    /*border: 2px solid red; */
     padding: 10px;
     width: 400px;
-    height: 400px;
+    height: 350px;
+    max-width: 1000;
 }
 
 .logo {
-    height: 10px;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+
+    height: 20px;
 
     display: flex;
     justify-content: center;
@@ -28,19 +38,57 @@ header {
 }
 
 #links {
+
+
     height: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: space-between;
+    align-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 .header_link {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
+    color: #E5E7EB;
     font-size: 15px;
 }
 
 .header_img {
+    background-color: grey;
     text-align: center;
+    height: 250px;
+    width: 300px;  /* fix aliment header text and header img*/
 }
+
+.header_text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header_paragraph {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold ;
+    font-size: 15px;
+    vertical-align: top;
+  }
+
+  /* popravi razvlačenje */
+
+  
