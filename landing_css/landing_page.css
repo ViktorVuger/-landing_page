@@ -93,6 +93,12 @@ button {
     vertical-align: top;
   }
 
+  button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    background-color: #E5E7EB;
+    color: #3882f6;
+  }
+
 .box_section {
     display: flex;
     flex-direction: row;
